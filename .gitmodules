@@ -10,3 +10,6 @@
 [submodule "SubModules/MHNatGeoViewControllerTransition"]
 	path = SubModules/MHNatGeoViewControllerTransition
 	url = https://github.com/michaelhenry/MHNatGeoViewControllerTransition.git
+[submodule "SubModules/MHFacebookImageViewer"]
+	path = SubModules/MHFacebookImageViewer
+	url = https://github.com/michaelhenry/MHFacebookImageViewer.git
