@@ -16,3 +16,6 @@
 [submodule "SubModules/MHProgressView"]
 	path = SubModules/MHProgressView
 	url = https://github.com/michaelhenry/MHProgressView.git
+[submodule "SubModules/MPFlipViewController"]
+	path = SubModules/MPFlipViewController
+	url = https://github.com/mpospese/MPFlipViewController.git
