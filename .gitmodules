@@ -1,3 +1,6 @@
 [submodule "SubModules/AFNetworking"]
 	path = SubModules/AFNetworking
 	url = https://github.com/AFNetworking/AFNetworking.git
+[submodule "SubModules/Reachability"]
+	path = SubModules/Reachability
+	url = https://github.com/tonymillion/Reachability.git
