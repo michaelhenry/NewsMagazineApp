@@ -19,3 +19,6 @@
 [submodule "SubModules/MPFlipViewController"]
 	path = SubModules/MPFlipViewController
 	url = https://github.com/mpospese/MPFlipViewController.git
+[submodule "SubModules/GTMNSString-HTML"]
+	path = SubModules/GTMNSString-HTML
+	url = https://github.com/siriusdely/GTMNSString-HTML.git
