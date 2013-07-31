@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99CEDFAA17A8ECA90088FB16 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99CEDFA917A8ECA90088FB16 /* UIKit.framework */; };
+		99CEDFAC17A8ECA90088FB16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99CEDFAB17A8ECA90088FB16 /* Foundation.framework */; };
+		99CEDFAE17A8ECA90088FB16 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99CEDFAD17A8ECA90088FB16 /* CoreGraphics.framework */; };
+		99CEDFB417A8ECA90088FB16 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99CEDFB217A8ECA90088FB16 /* InfoPlist.strings */; };
+		99CEDFB617A8ECA90088FB16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99CEDFB517A8ECA90088FB16 /* main.m */; };
+		99CEDFBA17A8ECAA0088FB16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99CEDFB917A8ECA90088FB16 /* AppDelegate.m */; };
+		99CEDFBC17A8ECAA0088FB16 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 99CEDFBB17A8ECAA0088FB16 /* Default.png */; };
+		99CEDFBE17A8ECAA0088FB16 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99CEDFBD17A8ECAA0088FB16 /* Default@2x.png */; };
+		99CEDFC017A8ECAA0088FB16 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99CEDFBF17A8ECAA0088FB16 /* Default-568h@2x.png */; };
+		99CEDFC317A8ECAA0088FB16 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99CEDFC117A8ECAA0088FB16 /* MainStoryboard.storyboard */; };
+		99CEDFC617A8ECAA0088FB16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99CEDFC517A8ECAA0088FB16 /* ViewController.m */; };
+		99CEDFCE17A8ECAA0088FB16 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99CEDFCD17A8ECAA0088FB16 /* SenTestingKit.framework */; };
+		99CEDFCF17A8ECAA0088FB16 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99CEDFA917A8ECA90088FB16 /* UIKit.framework */; };
+		99CEDFD017A8ECAA0088FB16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99CEDFAB17A8ECA90088FB16 /* Foundation.framework */; };
+		99CEDFD817A8ECAA0088FB16 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99CEDFD617A8ECAA0088FB16 /* InfoPlist.strings */; };
+		99CEDFDB17A8ECAA0088FB16 /* NewsMagazineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99CEDFDA17A8ECAA0088FB16 /* NewsMagazineTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99CEDFD117A8ECAA0088FB16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99CEDF9E17A8ECA90088FB16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99CEDFA517A8ECA90088FB16;
+			remoteInfo = NewsMagazine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99CEDFA617A8ECA90088FB16 /* NewsMagazine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsMagazine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99CEDFA917A8ECA90088FB16 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		99CEDFAB17A8ECA90088FB16 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		99CEDFAD17A8ECA90088FB16 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		99CEDFB117A8ECA90088FB16 /* NewsMagazine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NewsMagazine-Info.plist"; sourceTree = "<group>"; };
+		99CEDFB317A8ECA90088FB16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		99CEDFB517A8ECA90088FB16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99CEDFB717A8ECA90088FB16 /* NewsMagazine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewsMagazine-Prefix.pch"; sourceTree = "<group>"; };
+		99CEDFB817A8ECA90088FB16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		99CEDFB917A8ECA90088FB16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		99CEDFBB17A8ECAA0088FB16 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		99CEDFBD17A8ECAA0088FB16 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		99CEDFBF17A8ECAA0088FB16 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		99CEDFC217A8ECAA0088FB16 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		99CEDFC417A8ECAA0088FB16 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		99CEDFC517A8ECAA0088FB16 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		99CEDFCC17A8ECAA0088FB16 /* NewsMagazineTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsMagazineTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99CEDFCD17A8ECAA0088FB16 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		99CEDFD517A8ECAA0088FB16 /* NewsMagazineTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NewsMagazineTests-Info.plist"; sourceTree = "<group>"; };
+		99CEDFD717A8ECAA0088FB16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		99CEDFD917A8ECAA0088FB16 /* NewsMagazineTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsMagazineTests.h; sourceTree = "<group>"; };
+		99CEDFDA17A8ECAA0088FB16 /* NewsMagazineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsMagazineTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99CEDFA317A8ECA90088FB16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99CEDFAA17A8ECA90088FB16 /* UIKit.framework in Frameworks */,
+				99CEDFAC17A8ECA90088FB16 /* Foundation.framework in Frameworks */,
+				99CEDFAE17A8ECA90088FB16 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99CEDFC817A8ECAA0088FB16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99CEDFCE17A8ECAA0088FB16 /* SenTestingKit.framework in Frameworks */,
+				99CEDFCF17A8ECAA0088FB16 /* UIKit.framework in Frameworks */,
+				99CEDFD017A8ECAA0088FB16 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99CEDF9D17A8ECA90088FB16 = {
+			isa = PBXGroup;
+			children = (
+				99CEDFAF17A8ECA90088FB16 /* NewsMagazine */,
+				99CEDFD317A8ECAA0088FB16 /* NewsMagazineTests */,
+				99CEDFA817A8ECA90088FB16 /* Frameworks */,
+				99CEDFA717A8ECA90088FB16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99CEDFA717A8ECA90088FB16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99CEDFA617A8ECA90088FB16 /* NewsMagazine.app */,
+				99CEDFCC17A8ECAA0088FB16 /* NewsMagazineTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99CEDFA817A8ECA90088FB16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99CEDFA917A8ECA90088FB16 /* UIKit.framework */,
+				99CEDFAB17A8ECA90088FB16 /* Foundation.framework */,
+				99CEDFAD17A8ECA90088FB16 /* CoreGraphics.framework */,
+				99CEDFCD17A8ECAA0088FB16 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99CEDFAF17A8ECA90088FB16 /* NewsMagazine */ = {
+			isa = PBXGroup;
+			children = (
+				99CEDFB817A8ECA90088FB16 /* AppDelegate.h */,
+				99CEDFB917A8ECA90088FB16 /* AppDelegate.m */,
+				99CEDFC117A8ECAA0088FB16 /* MainStoryboard.storyboard */,
+				99CEDFC417A8ECAA0088FB16 /* ViewController.h */,
+				99CEDFC517A8ECAA0088FB16 /* ViewController.m */,
+				99CEDFB017A8ECA90088FB16 /* Supporting Files */,
+			);
+			path = NewsMagazine;
+			sourceTree = "<group>";
+		};
+		99CEDFB017A8ECA90088FB16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99CEDFB117A8ECA90088FB16 /* NewsMagazine-Info.plist */,
+				99CEDFB217A8ECA90088FB16 /* InfoPlist.strings */,
+				99CEDFB517A8ECA90088FB16 /* main.m */,
+				99CEDFB717A8ECA90088FB16 /* NewsMagazine-Prefix.pch */,
+				99CEDFBB17A8ECAA0088FB16 /* Default.png */,
+				99CEDFBD17A8ECAA0088FB16 /* Default@2x.png */,
+				99CEDFBF17A8ECAA0088FB16 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99CEDFD317A8ECAA0088FB16 /* NewsMagazineTests */ = {
+			isa = PBXGroup;
+			children = (
+				99CEDFD917A8ECAA0088FB16 /* NewsMagazineTests.h */,
+				99CEDFDA17A8ECAA0088FB16 /* NewsMagazineTests.m */,
+				99CEDFD417A8ECAA0088FB16 /* Supporting Files */,
+			);
+			path = NewsMagazineTests;
+			sourceTree = "<group>";
+		};
+		99CEDFD417A8ECAA0088FB16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99CEDFD517A8ECAA0088FB16 /* NewsMagazineTests-Info.plist */,
+				99CEDFD617A8ECAA0088FB16 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99CEDFA517A8ECA90088FB16 /* NewsMagazine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99CEDFDE17A8ECAA0088FB16 /* Build configuration list for PBXNativeTarget "NewsMagazine" */;
+			buildPhases = (
+				99CEDFA217A8ECA90088FB16 /* Sources */,
+				99CEDFA317A8ECA90088FB16 /* Frameworks */,
+				99CEDFA417A8ECA90088FB16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewsMagazine;
+			productName = NewsMagazine;
+			productReference = 99CEDFA617A8ECA90088FB16 /* NewsMagazine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99CEDFCB17A8ECAA0088FB16 /* NewsMagazineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99CEDFE117A8ECAA0088FB16 /* Build configuration list for PBXNativeTarget "NewsMagazineTests" */;
+			buildPhases = (
+				99CEDFC717A8ECAA0088FB16 /* Sources */,
+				99CEDFC817A8ECAA0088FB16 /* Frameworks */,
+				99CEDFC917A8ECAA0088FB16 /* Resources */,
+				99CEDFCA17A8ECAA0088FB16 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99CEDFD217A8ECAA0088FB16 /* PBXTargetDependency */,
+			);
+			name = NewsMagazineTests;
+			productName = NewsMagazineTests;
+			productReference = 99CEDFCC17A8ECAA0088FB16 /* NewsMagazineTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99CEDF9E17A8ECA90088FB16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Michael Henry Pantaleon";
+			};
+			buildConfigurationList = 99CEDFA117A8ECA90088FB16 /* Build configuration list for PBXProject "NewsMagazine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 99CEDF9D17A8ECA90088FB16;
+			productRefGroup = 99CEDFA717A8ECA90088FB16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99CEDFA517A8ECA90088FB16 /* NewsMagazine */,
+				99CEDFCB17A8ECAA0088FB16 /* NewsMagazineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99CEDFA417A8ECA90088FB16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99CEDFB417A8ECA90088FB16 /* InfoPlist.strings in Resources */,
+				99CEDFBC17A8ECAA0088FB16 /* Default.png in Resources */,
+				99CEDFBE17A8ECAA0088FB16 /* Default@2x.png in Resources */,
+				99CEDFC017A8ECAA0088FB16 /* Default-568h@2x.png in Resources */,
+				99CEDFC317A8ECAA0088FB16 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99CEDFC917A8ECAA0088FB16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99CEDFD817A8ECAA0088FB16 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		99CEDFCA17A8ECAA0088FB16 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99CEDFA217A8ECA90088FB16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99CEDFB617A8ECA90088FB16 /* main.m in Sources */,
+				99CEDFBA17A8ECAA0088FB16 /* AppDelegate.m in Sources */,
+				99CEDFC617A8ECAA0088FB16 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99CEDFC717A8ECAA0088FB16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99CEDFDB17A8ECAA0088FB16 /* NewsMagazineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99CEDFD217A8ECAA0088FB16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99CEDFA517A8ECA90088FB16 /* NewsMagazine */;
+			targetProxy = 99CEDFD117A8ECAA0088FB16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99CEDFB217A8ECA90088FB16 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99CEDFB317A8ECA90088FB16 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		99CEDFC117A8ECAA0088FB16 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99CEDFC217A8ECAA0088FB16 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		99CEDFD617A8ECAA0088FB16 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99CEDFD717A8ECAA0088FB16 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99CEDFDC17A8ECAA0088FB16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		99CEDFDD17A8ECAA0088FB16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99CEDFDF17A8ECAA0088FB16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewsMagazine/NewsMagazine-Prefix.pch";
+				INFOPLIST_FILE = "NewsMagazine/NewsMagazine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		99CEDFE017A8ECAA0088FB16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewsMagazine/NewsMagazine-Prefix.pch";
+				INFOPLIST_FILE = "NewsMagazine/NewsMagazine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		99CEDFE217A8ECAA0088FB16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NewsMagazine.app/NewsMagazine";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewsMagazine/NewsMagazine-Prefix.pch";
+				INFOPLIST_FILE = "NewsMagazineTests/NewsMagazineTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		99CEDFE317A8ECAA0088FB16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NewsMagazine.app/NewsMagazine";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewsMagazine/NewsMagazine-Prefix.pch";
+				INFOPLIST_FILE = "NewsMagazineTests/NewsMagazineTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99CEDFA117A8ECA90088FB16 /* Build configuration list for PBXProject "NewsMagazine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99CEDFDC17A8ECAA0088FB16 /* Debug */,
+				99CEDFDD17A8ECAA0088FB16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99CEDFDE17A8ECAA0088FB16 /* Build configuration list for PBXNativeTarget "NewsMagazine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99CEDFDF17A8ECAA0088FB16 /* Debug */,
+				99CEDFE017A8ECAA0088FB16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		99CEDFE117A8ECAA0088FB16 /* Build configuration list for PBXNativeTarget "NewsMagazineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99CEDFE217A8ECAA0088FB16 /* Debug */,
+				99CEDFE317A8ECAA0088FB16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99CEDF9E17A8ECA90088FB16 /* Project object */;
+}
