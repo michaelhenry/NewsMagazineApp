@@ -13,3 +13,6 @@
 [submodule "SubModules/MHFacebookImageViewer"]
 	path = SubModules/MHFacebookImageViewer
 	url = https://github.com/michaelhenry/MHFacebookImageViewer.git
+[submodule "SubModules/MHProgressView"]
+	path = SubModules/MHProgressView
+	url = https://github.com/michaelhenry/MHProgressView.git
