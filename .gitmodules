@@ -7,3 +7,6 @@
 [submodule "SubModules/FlipboardNavigationController"]
 	path = SubModules/FlipboardNavigationController
 	url = https://github.com/michaelhenry/FlipBoardNavigationController.git
+[submodule "SubModules/MHNatGeoViewControllerTransition"]
+	path = SubModules/MHNatGeoViewControllerTransition
+	url = https://github.com/michaelhenry/MHNatGeoViewControllerTransition.git
