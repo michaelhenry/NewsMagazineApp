@@ -4,3 +4,6 @@
 [submodule "SubModules/Reachability"]
 	path = SubModules/Reachability
 	url = https://github.com/tonymillion/Reachability.git
+[submodule "SubModules/FlipboardNavigationController"]
+	path = SubModules/FlipboardNavigationController
+	url = https://github.com/michaelhenry/FlipBoardNavigationController.git
