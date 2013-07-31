@@ -22,3 +22,6 @@
 [submodule "SubModules/GTMNSString-HTML"]
 	path = SubModules/GTMNSString-HTML
 	url = https://github.com/siriusdely/GTMNSString-HTML.git
+[submodule "SubModules/SDURLCache"]
+	path = SubModules/SDURLCache
+	url = https://github.com/steipete/SDURLCache.git
