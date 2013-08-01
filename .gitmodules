@@ -21,7 +21,7 @@
 	url = https://github.com/mpospese/MPFlipViewController.git
 [submodule "SubModules/GTMNSString-HTML"]
 	path = SubModules/GTMNSString-HTML
-	url = https://github.com/siriusdely/GTMNSString-HTML.git
+url=https://github.com/michaelhenry/GTMNSString-HTML.git
 [submodule "SubModules/SDURLCache"]
 	path = SubModules/SDURLCache
 	url = https://github.com/steipete/SDURLCache.git
