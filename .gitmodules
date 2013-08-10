@@ -25,3 +25,6 @@ url=https://github.com/michaelhenry/GTMNSString-HTML.git
 [submodule "SubModules/SDURLCache"]
 	path = SubModules/SDURLCache
 	url = https://github.com/steipete/SDURLCache.git
+[submodule "SubModules/SIAlertView"]
+	path = SubModules/SIAlertView
+	url = https://github.com/Sumi-Interactive/SIAlertView.git
