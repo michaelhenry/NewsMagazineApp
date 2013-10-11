@@ -10,8 +10,11 @@
 #import "FlipBoardNavigationController.h"
 #import "AFNetworking.h"
 #import "MHHelper.h"
+#import "IOSMacroFunctionHelper.h"
 
-@interface MenuViewController ()<UITableViewDataSource,UITableViewDelegate>
+@interface MenuViewController ()<UITableViewDataSource,UITableViewDelegate>{
+    CGFloat navHeight;
+}
 
 @property (nonatomic,strong) NSArray * list;
 @end
@@ -31,6 +34,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    if(SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"7.0")){
+        navHeight = 64.0f;
+    }else {
+        navHeight = 44.0f;
+    }
     NSURLRequest * request = [NSURLRequest requestWithURL:[NSURL URLWithString:[[NSBundle mainBundle]objectForInfoDictionaryKey:@"MenuAPI"]]];
     NSData * menuData = [MHHelper retrieveDataFromCache:request.URL.absoluteString expiration:60*60*24*1];
     if(menuData) {

@@ -8,6 +8,7 @@
 
 #import "WebBrowserViewController.h"
 #import "MHNatGeoViewControllerTransition.h"
+#import "SIAlertView.h"
 @interface WebBrowserViewController ()<UIWebViewDelegate,MFMailComposeViewControllerDelegate>
 {
     BOOL isMenuAnimating;
@@ -148,7 +149,20 @@
    
         if(sender.tag==1) {
             // Tweet Link
-            [self postToTwitter:text url:url image:nil completion:nil];
+            [self postToTwitter:text url:url image:nil completion:^(BOOL success, NSString *message) {
+                if(!success) {
+                    SIAlertView *alertView = [[SIAlertView alloc] initWithTitle:@"Share To Twitter" andMessage:message];
+                    [alertView addButtonWithTitle:@"Close"
+                                             type:SIAlertViewButtonTypeDestructive
+                                          handler:^(SIAlertView *alert) {
+                                              NSLog(@"Button2 Clicked");
+                                          }];
+                    alertView.transitionStyle = SIAlertViewTransitionStyleBounce;
+                    [alertView show];
+                    alertView = nil;
+ 
+                }
+            }];
         }else if(sender.tag==2) {
             // Copy Link
             [self copyToClipboardWithText:url.absoluteString completion:nil];

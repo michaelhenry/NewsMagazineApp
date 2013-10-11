@@ -38,7 +38,7 @@
            if(_sharingCompletionBlock) _sharingCompletionBlock(YES,@"");
         }];
     } else {
-        if(_sharingCompletionBlock) _sharingCompletionBlock(NO,@"Please Add your Twitter account to your Phone Setting");
+        if(_sharingCompletionBlock) _sharingCompletionBlock(NO,@"Please add your Twitter account to your phone setting. Thank you!");
     }
 }
 
@@ -54,7 +54,7 @@
             if(_sharingCompletionBlock) _sharingCompletionBlock(YES,@"");
         }];
     }else {
-        if(_sharingCompletionBlock) _sharingCompletionBlock(NO,@"Please Add your Facebook account to your Phone Setting");
+        if(_sharingCompletionBlock) _sharingCompletionBlock(NO,@"Please add your Facebook account to your phone setting. Thank you!");
     }
 }
 

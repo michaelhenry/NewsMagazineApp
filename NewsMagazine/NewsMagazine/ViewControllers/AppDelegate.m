@@ -2,16 +2,37 @@
 //  AppDelegate.m
 //  NewsMagazine
 //
-//  Created by Michael henry Pantaleon on 7/31/13.
+//  Created by Michael henry Pantaleon on 4/27/13.
 //  Copyright (c) 2013 Michael Henry Pantaleon. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "SDURLCache.h"
+
 
 @implementation AppDelegate
-
+@synthesize flipBoardNVC;
+@synthesize mainVC;
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [MagicalRecord setupCoreDataStackWithStoreNamed:@"NewsMagazine.sqlite"];
+    
+    SDURLCache *urlCache = [[SDURLCache alloc] initWithMemoryCapacity:1024*1024*4   // 1MB mem cache
+        diskCapacity:1024*1024*32 // 5MB disk cache
+        diskPath:[SDURLCache defaultCachePath]];
+    
+    [NSURLCache setSharedURLCache:urlCache];
+
+    UIStoryboard * storyboard=[UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
+    self.mainVC = [storyboard instantiateViewControllerWithIdentifier:@"main_vc"];
+   
+    self.flipBoardNVC = [[FlipBoardNavigationController alloc]initWithRootViewController:self.mainVC];
+    self.window.rootViewController = self.flipBoardNVC;
+   
+    
+    [self.window makeKeyAndVisible];
+    storyboard = nil;
+    self.flipBoardNVC = nil;
     // Override point for customization after application launch.
     return YES;
 }
@@ -40,7 +61,14 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application
 {
+     [MagicalRecord cleanUp];
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (NSString *)storyboardName
+{
+	return @"MainStoryboard";
+	
 }
 
 @end
