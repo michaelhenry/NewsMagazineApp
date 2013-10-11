@@ -478,14 +478,10 @@ Scelerisque sed diam, urna mattis magna lacus placerat magna mid, aliquet? Diam?
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
-                            <view contentMode="scaleToFill" id="7nc-Tf-hgm">
+                            <view contentMode="scaleToFill" id="7nc-Tf-hgm" customClass="DRNRealTimeBlurView">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="nav_bar.png" id="aTh-3X-8sU">
-                                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
-                                    </imageView>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="LATEST" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KWV-8s-zwK">
                                         <rect key="frame" x="51" y="20" width="218" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
@@ -494,7 +490,7 @@ Scelerisque sed diam, urna mattis magna lacus placerat magna mid, aliquet? Diam?
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="l29-yq-6mS">
-                                        <rect key="frame" x="270" y="20" width="50" height="44"/>
+                                        <rect key="frame" x="270" y="19" width="50" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <state key="normal" image="icon_menu_button.png">
@@ -536,7 +532,8 @@ Scelerisque sed diam, urna mattis magna lacus placerat magna mid, aliquet? Diam?
                         <outlet property="contentAuthor" destination="SgD-lF-vHz" id="8ln-yT-u9G"/>
                         <outlet property="contentImage" destination="YEG-cV-PUn" id="Wtw-xn-qCx"/>
                         <outlet property="contentTitle" destination="iIP-PN-voJ" id="Xly-FC-o4Y"/>
-                        <outlet property="menuContainer" destination="zXU-1t-YKa" id="S7v-j1-5gc"/>
+                        <outlet property="menuBarContainer" destination="7nc-Tf-hgm" id="YpD-t9-FTG"/>
+                        <outlet property="menuContainer" destination="zXU-1t-YKa" id="eF6-QQ-L63"/>
                         <outlet property="navTitleLabel" destination="KWV-8s-zwK" id="0CI-am-z0f"/>
                         <outlet property="pubdateLabel" destination="6gv-J7-tMn" id="YJj-Q6-gKr"/>
                         <outlet property="readItLaterButton" destination="ZfW-Wf-43H" id="Jcv-7w-Dow"/>

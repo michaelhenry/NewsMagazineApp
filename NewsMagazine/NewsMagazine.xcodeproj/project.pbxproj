@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		170F87501807FC010051C57B /* DRNRealTimeBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 170F87351807FC010051C57B /* DRNRealTimeBlurView.m */; };
+		170F87511807FC010051C57B /* UIImage+BoxBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = 170F87371807FC010051C57B /* UIImage+BoxBlur.m */; };
+		170F87611807FC130051C57B /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170F87601807FC130051C57B /* Accelerate.framework */; };
 		99127A5717B67BF900445E5F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99127A5617B67BF900445E5F /* Default@2x.png */; };
 		99127A5917B67C0000445E5F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99127A5817B67C0000445E5F /* Default-568h@2x.png */; };
 		99127A5B17B67F7200445E5F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 99127A5417B67BF400445E5F /* Default.png */; };
@@ -184,6 +187,11 @@
 
 /* Begin PBXFileReference section */
 		170F86481806C1070051C57B /* IOSMacroFunctionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSMacroFunctionHelper.h; sourceTree = "<group>"; };
+		170F87341807FC010051C57B /* DRNRealTimeBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DRNRealTimeBlurView.h; path = RealTimeBlur/Classes/DRNRealTimeBlurView.h; sourceTree = "<group>"; };
+		170F87351807FC010051C57B /* DRNRealTimeBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DRNRealTimeBlurView.m; path = RealTimeBlur/Classes/DRNRealTimeBlurView.m; sourceTree = "<group>"; };
+		170F87361807FC010051C57B /* UIImage+BoxBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+BoxBlur.h"; path = "RealTimeBlur/Classes/UIImage+BoxBlur.h"; sourceTree = "<group>"; };
+		170F87371807FC010051C57B /* UIImage+BoxBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+BoxBlur.m"; path = "RealTimeBlur/Classes/UIImage+BoxBlur.m"; sourceTree = "<group>"; };
+		170F87601807FC130051C57B /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		99127A5417B67BF400445E5F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../../Default.png; sourceTree = "<group>"; };
 		99127A5617B67BF900445E5F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../../Default@2x.png"; sourceTree = "<group>"; };
 		99127A5817B67C0000445E5F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -418,6 +426,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				170F87611807FC130051C57B /* Accelerate.framework in Frameworks */,
 				99CEE09117A8EE140088FB16 /* Security.framework in Frameworks */,
 				99CEE08F17A8EE0F0088FB16 /* Social.framework in Frameworks */,
 				99CEE08D17A8EE060088FB16 /* MessageUI.framework in Frameworks */,
@@ -444,6 +453,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		170F872D1807FC010051C57B /* ios-realtimeblur */ = {
+			isa = PBXGroup;
+			children = (
+				170F87341807FC010051C57B /* DRNRealTimeBlurView.h */,
+				170F87351807FC010051C57B /* DRNRealTimeBlurView.m */,
+				170F87361807FC010051C57B /* UIImage+BoxBlur.h */,
+				170F87371807FC010051C57B /* UIImage+BoxBlur.m */,
+			);
+			path = "ios-realtimeblur";
+			sourceTree = "<group>";
+		};
 		99127A5A17B67C1A00445E5F /* splash_and_logo */ = {
 			isa = PBXGroup;
 			children = (
@@ -523,6 +543,7 @@
 		99CEDFA817A8ECA90088FB16 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				170F87601807FC130051C57B /* Accelerate.framework */,
 				99CEE09017A8EE140088FB16 /* Security.framework */,
 				99CEE08E17A8EE0F0088FB16 /* Social.framework */,
 				99CEE08C17A8EE060088FB16 /* MessageUI.framework */,
@@ -591,6 +612,7 @@
 		99CEDFE417A8ED6A0088FB16 /* SubModules */ = {
 			isa = PBXGroup;
 			children = (
+				170F872D1807FC010051C57B /* ios-realtimeblur */,
 				99127A5D17B69C4500445E5F /* SIAlertView */,
 				99CEE19717A8FF550088FB16 /* MagicalRecord */,
 				99CEE19317A8FE8E0088FB16 /* SDURLCache */,
@@ -1207,6 +1229,7 @@
 				99CEE1DE17A8FF560088FB16 /* NSManagedObject+MagicalRequests.m in Sources */,
 				99CEE1DF17A8FF560088FB16 /* NSManagedObjectContext+MagicalObserving.m in Sources */,
 				99CEE1E017A8FF560088FB16 /* NSManagedObjectContext+MagicalRecord.m in Sources */,
+				170F87511807FC010051C57B /* UIImage+BoxBlur.m in Sources */,
 				99CEE1E117A8FF560088FB16 /* NSManagedObjectContext+MagicalSaves.m in Sources */,
 				99CEE1E217A8FF560088FB16 /* NSManagedObjectContext+MagicalThreading.m in Sources */,
 				99CEE1E317A8FF560088FB16 /* NSManagedObjectModel+MagicalRecord.m in Sources */,
@@ -1217,6 +1240,7 @@
 				99CEE1E817A8FF560088FB16 /* MagicalRecord+iCloud.m in Sources */,
 				99CEE1E917A8FF560088FB16 /* MagicalRecord+Options.m in Sources */,
 				99CEE1EA17A8FF560088FB16 /* MagicalRecord+Setup.m in Sources */,
+				170F87501807FC010051C57B /* DRNRealTimeBlurView.m in Sources */,
 				99CEE1EB17A8FF560088FB16 /* MagicalRecord+ShorthandSupport.m in Sources */,
 				99CEE1EC17A8FF560088FB16 /* MagicalRecord.m in Sources */,
 				9930925117A91998005A82CB /* NewsMagazineModel.xcdatamodeld in Sources */,

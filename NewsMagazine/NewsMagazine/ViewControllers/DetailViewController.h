@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "MHUtilsViewController.h"
-
+@class DRNRealTimeBlurView;
 @interface DetailViewController : MHUtilsViewController
 
 - (IBAction)didClose:(UIButton*)sender;
@@ -34,6 +34,7 @@
 @property (strong, nonatomic) IBOutlet UIButton *shareEmailButton;
 @property (strong, nonatomic) IBOutlet UIButton *readItLaterButton;
 @property (strong, nonatomic) IBOutlet UIButton *viewOnWebButton;
+@property (weak, nonatomic) IBOutlet DRNRealTimeBlurView *menuBarContainer;
 
 @property(nonatomic,strong) NSString * navTitle;
 

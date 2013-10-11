@@ -28,3 +28,6 @@ url=https://github.com/michaelhenry/GTMNSString-HTML.git
 [submodule "SubModules/SIAlertView"]
 	path = SubModules/SIAlertView
 	url = https://github.com/Sumi-Interactive/SIAlertView.git
+[submodule "SubModules/ios-realtimeblur"]
+	path = SubModules/ios-realtimeblur
+	url = https://github.com/alexdrone/ios-realtimeblur.git

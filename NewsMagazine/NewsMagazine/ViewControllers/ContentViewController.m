@@ -90,7 +90,7 @@
         [self.view bringSubviewToFront:self.contentTitle];
         [self.contentTitle sizeToFit];
         self.contentTitle.frame = CGRectMake(10.0f, contentLimitY-self.contentTitle.frame.size.height - 30.0f, 300, self.contentTitle.frame.size.height);
-        
+        self.contentImage.frame = CGRectMake(0, 0, self.contentImage.superview.frame.size.width, self.contentImage.superview.frame.size.height);
         [self.contentAuthor removeFromSuperview];
         [self.body removeFromSuperview];
         
@@ -107,7 +107,14 @@
         [self.contentTitle sizeToFit];
         totalY = totalY + self.contentTitle.frame.size.height;
         if((totalY + self.contentTitle.frame.size.height) > contentLimitY) {
-            [self.contentTitle removeFromSuperview];
+                self.contentTitle.frame = CGRectMake(10.0f,  - self.contentTitle.frame.size.height + navHeight + 20.0f,  self.contentTitle.frame.size.width,  self.contentTitle.frame.size.height);
+              self.contentImage.frame = CGRectMake(0, 0, self.contentImage.superview.frame.size.width,  self.contentImage.superview.frame.size.height);
+            UIColor * requiredColor = [self reverseColor:[self getDominantColor:self.contentImage.image]];
+            
+            self.contentTitle.textAlignment = NSTextAlignmentRight;
+            self.contentTitle.textColor = requiredColor;
+            self.sourceLabel.textColor = requiredColor;
+            self.pubdateLabel.textColor = requiredColor;
         }
         self.contentAuthor.frame = CGRectMake(10.0f, totalY, 300, 0);
         [self.contentAuthor sizeToFit];
@@ -115,11 +122,11 @@
         if((totalY + self.contentAuthor.frame.size.height) > contentLimitY) {
             [self.contentAuthor removeFromSuperview];
         }
+     
         self.body.frame = CGRectMake(10.0f, totalY, 300, self.view.frame.size.height - totalY - footerheight);
         
         totalY = totalY + self.body.frame.size.height;
         if(totalY > contentLimitY) {
-           
             [self.body removeFromSuperview];
         }
     }

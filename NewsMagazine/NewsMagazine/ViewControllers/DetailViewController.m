@@ -18,6 +18,7 @@
 #import "FlipBoardNavigationController.h"
 #import "SIAlertView.h"
 #import "IOSMacroFunctionHelper.h"
+#import "DRNRealTimeBlurView.h"
 @interface DetailViewController () {
     BOOL isMenuAnimating;
     CGFloat navHeight;
@@ -55,7 +56,8 @@
     self.shareEmailButton.frame = [self hideFrameOfMenuButton:self.shareEmailButton];
     self.readItLaterButton.frame = [self hideFrameOfMenuButton:self.readItLaterButton];
     self.viewOnWebButton.frame = [self hideFrameOfMenuButton:self.viewOnWebButton];
-    
+    self.menuBarContainer.tintColor = [UIColor whiteColor];
+    self.menuContainer.tintColor = [UIColor whiteColor];
     
     [self relayoutViews];
 	// Do any additional setup after loading the view.
