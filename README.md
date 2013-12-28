@@ -11,6 +11,9 @@ http://newsmagazineapp.com
 
 [![News Magazine App](http://img.youtube.com/vi/1m4YMnghzQk/0.jpg)](http://www.youtube.com/watch?v=1m4YMnghzQk)
 
+## Screenshot:
+
+![Screenshot](https://raw.github.com/michaelhenry/NewsMagazineApp/master/screenshot.png "NewsMagazineApp")
 _______________________
 
 > Want to read some Docs? Please refer to the [WIKI](https://github.com/michaelhenry/NewsMagazineApp/wiki "Wiki")
