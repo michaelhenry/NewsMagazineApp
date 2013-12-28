@@ -14,7 +14,7 @@ http://newsmagazineapp.com
 
 _______________________
 
-> Want to read some Docs? Please refer to the [WIKI](https://github.com/michaelhenry/NewsMagazineApp/wiki "Wiki")
+> Want to read some Docs? Please refer to the [WIKIs](https://github.com/michaelhenry/NewsMagazineApp/wiki "Wikis").
 
 _______________________
 
