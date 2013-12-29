@@ -11,12 +11,10 @@ http://newsmagazineapp.com
 [![News Magazine App](http://img.youtube.com/vi/1m4YMnghzQk/0.jpg)](http://www.youtube.com/watch?v=1m4YMnghzQk)
 
 
-
-_______________________
+## Docs
 
 > Want to read some Docs? Please refer to the [WIKIs](https://github.com/michaelhenry/NewsMagazineApp/wiki "Wikis").
 
-_______________________
 
 
 ## Licensing
