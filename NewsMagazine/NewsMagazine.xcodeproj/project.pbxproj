@@ -186,6 +186,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1444360F187333D500CE160C /* icon_3_120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_3_120x120.png; path = ../../icon_3_120x120.png; sourceTree = "<group>"; };
 		170F86481806C1070051C57B /* IOSMacroFunctionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSMacroFunctionHelper.h; sourceTree = "<group>"; };
 		170F87341807FC010051C57B /* DRNRealTimeBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DRNRealTimeBlurView.h; path = RealTimeBlur/Classes/DRNRealTimeBlurView.h; sourceTree = "<group>"; };
 		170F87351807FC010051C57B /* DRNRealTimeBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DRNRealTimeBlurView.m; path = RealTimeBlur/Classes/DRNRealTimeBlurView.m; sourceTree = "<group>"; };
@@ -467,6 +468,7 @@
 		99127A5A17B67C1A00445E5F /* splash_and_logo */ = {
 			isa = PBXGroup;
 			children = (
+				1444360F187333D500CE160C /* icon_3_120x120.png */,
 				99127A5817B67C0000445E5F /* Default-568h@2x.png */,
 				99127A5617B67BF900445E5F /* Default@2x.png */,
 				99127A5417B67BF400445E5F /* Default.png */,
