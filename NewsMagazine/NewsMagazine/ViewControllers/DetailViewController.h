@@ -34,7 +34,7 @@
 @property (strong, nonatomic) IBOutlet UIButton *shareEmailButton;
 @property (strong, nonatomic) IBOutlet UIButton *readItLaterButton;
 @property (strong, nonatomic) IBOutlet UIButton *viewOnWebButton;
-@property (weak, nonatomic) IBOutlet DRNRealTimeBlurView *menuBarContainer;
+@property (weak, nonatomic) IBOutlet UIView *menuBarContainer;
 
 @property(nonatomic,strong) NSString * navTitle;
 

@@ -56,7 +56,7 @@
     self.shareEmailButton.frame = [self hideFrameOfMenuButton:self.shareEmailButton];
     self.readItLaterButton.frame = [self hideFrameOfMenuButton:self.readItLaterButton];
     self.viewOnWebButton.frame = [self hideFrameOfMenuButton:self.viewOnWebButton];
-    self.menuBarContainer.tintColor = [UIColor whiteColor];
+//    self.menuBarContainer.tintColor = [UIColor whiteColor];
     self.menuContainer.tintColor = [UIColor whiteColor];
     
     [self relayoutViews];

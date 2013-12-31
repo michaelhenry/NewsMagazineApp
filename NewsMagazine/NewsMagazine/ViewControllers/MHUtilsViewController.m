@@ -68,7 +68,7 @@
         [email setToRecipients:recipients];
         [email setSubject:subject];
         [email setMessageBody:body isHTML:isHTML];
-        [self.flipboardNavigationController presentNatGeoViewController:email];
+        [self presentNatGeoViewController:email];	
         email = nil;
     }else {
         if(_emailCompletionBlock) _emailCompletionBlock(NO,0,nil);
