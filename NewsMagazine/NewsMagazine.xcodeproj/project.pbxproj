@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1444361118733A1E00CE160C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1444361018733A1E00CE160C /* Images.xcassets */; };
 		170F87501807FC010051C57B /* DRNRealTimeBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 170F87351807FC010051C57B /* DRNRealTimeBlurView.m */; };
 		170F87511807FC010051C57B /* UIImage+BoxBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = 170F87371807FC010051C57B /* UIImage+BoxBlur.m */; };
 		170F87611807FC130051C57B /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170F87601807FC130051C57B /* Accelerate.framework */; };
@@ -187,6 +188,7 @@
 
 /* Begin PBXFileReference section */
 		1444360F187333D500CE160C /* icon_3_120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_3_120x120.png; path = ../../icon_3_120x120.png; sourceTree = "<group>"; };
+		1444361018733A1E00CE160C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		170F86481806C1070051C57B /* IOSMacroFunctionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSMacroFunctionHelper.h; sourceTree = "<group>"; };
 		170F87341807FC010051C57B /* DRNRealTimeBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DRNRealTimeBlurView.h; path = RealTimeBlur/Classes/DRNRealTimeBlurView.h; sourceTree = "<group>"; };
 		170F87351807FC010051C57B /* DRNRealTimeBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DRNRealTimeBlurView.m; path = RealTimeBlur/Classes/DRNRealTimeBlurView.m; sourceTree = "<group>"; };
@@ -572,6 +574,7 @@
 				99CEDFC417A8ECAA0088FB16 /* ViewController.h */,
 				99CEDFC517A8ECAA0088FB16 /* ViewController.m */,
 				170F86481806C1070051C57B /* IOSMacroFunctionHelper.h */,
+				1444361018733A1E00CE160C /* Images.xcassets */,
 				99CEDFB017A8ECA90088FB16 /* Supporting Files */,
 			);
 			path = NewsMagazine;
@@ -1086,6 +1089,7 @@
 				99CEE0DB17A8F24F0088FB16 /* footer_line.png in Resources */,
 				99CEE0DC17A8F24F0088FB16 /* footer_line@2x.png in Resources */,
 				99CEE0DD17A8F24F0088FB16 /* nav_bar.png in Resources */,
+				1444361118733A1E00CE160C /* Images.xcassets in Resources */,
 				99CEE0DE17A8F24F0088FB16 /* nav_bar@2x.png in Resources */,
 				99CEE0DF17A8F24F0088FB16 /* table_header.png in Resources */,
 				99CEE0E017A8F24F0088FB16 /* table_header@2x.png in Resources */,
@@ -1369,6 +1373,8 @@
 		99CEDFDF17A8ECAA0088FB16 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NewsMagazine/NewsMagazine-Prefix.pch";
 				INFOPLIST_FILE = "NewsMagazine/NewsMagazine-Info.plist";
@@ -1381,6 +1387,8 @@
 		99CEDFE017A8ECAA0088FB16 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NewsMagazine/NewsMagazine-Prefix.pch";
 				INFOPLIST_FILE = "NewsMagazine/NewsMagazine-Info.plist";
