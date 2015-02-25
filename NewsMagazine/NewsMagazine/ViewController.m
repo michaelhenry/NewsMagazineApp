@@ -105,7 +105,7 @@
     _isUpdating = YES;
     
     [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
-    NSURL *url = [NSURL URLWithString:@"http://newsmagazineapp.com/api.json"];
+    NSURL *url = [NSURL URLWithString:@"http://newsmagazine.herokuapp.com/sample.json"];
     
     AFHTTPClient *client = [[AFHTTPClient alloc] initWithBaseURL:url];
     NSMutableDictionary * parameters = [[NSMutableDictionary alloc]init];

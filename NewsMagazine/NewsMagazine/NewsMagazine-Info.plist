@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>AboutLink</key>
-	<string>http://newsmagazineapp.com</string>
+	<string>http://newsmagazine.herokuapp.com</string>
 	<key>AppStoreID</key>
 	<string>682582504</string>
 	<key>CFBundleDevelopmentRegion</key>
@@ -31,13 +31,13 @@
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>ContactUsEmail</key>
-	<string>michaelhenry119@yahoo.com.ph</string>
+	<string>me@iamkel.net</string>
 	<key>CreditsLink</key>
 	<string>https://github.com/michaelhenry/NewsMagazineApp/blob/master/docs/CREDITS.md</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>MenuAPI</key>
-	<string>http://newsmagazineapp.com/menu.json</string>
+	<string>http://newsmagazine.herokuapp.com/menu.json</string>
 	<key>UIMainStoryboardFile</key>
 	<string>MainStoryboard</string>
 	<key>UIPrerenderedIcon</key>
